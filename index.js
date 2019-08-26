@@ -9,3 +9,7 @@ function distanceFromHqInFeet(location) {
   const distancePerBlock = 264;
   return distanceFromHqInBlocks(location) * distancePerBlock
 }
+
+function distanceTravelledInFeet(location) {
+  
+}
