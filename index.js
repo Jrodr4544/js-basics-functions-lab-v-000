@@ -11,5 +11,6 @@ function distanceFromHqInFeet(location) {
 }
 
 function distanceTravelledInFeet(start, end) {
-  
+  const numOfBlocksTravelled = [start, end].sort()[1] - [start, end].sort()[0]
+  return numOfBlocksTravelled * 264
 }
