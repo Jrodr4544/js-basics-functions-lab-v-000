@@ -5,6 +5,6 @@ function distanceFromHqInBlocks(location) {
   return locationBeforeOrAfter42[1] - locationBeforeOrAfter42[0]
 }
 
-function distanceFromHqInFeet() {
+function distanceFromHqInFeet(location) {
   
 }
