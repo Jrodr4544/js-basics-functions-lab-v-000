@@ -18,11 +18,11 @@ function distanceTravelledInFeet(start, end) {
 function calculatesFarePrice(start, destination) {
   const price = 0;
   const distanceTravelled = distanceTravelledInFeet(start, destination)
-  if (distanceTravelled < 400) {
+  if (distanceTravelled <= 400) {
     return price;
   } else if (distanceTravelled > 400 && distanceTravelled < 2000) {
     return price += (distanceTravelled - 400) * .02
-  }
+  } 
 }
 
 
