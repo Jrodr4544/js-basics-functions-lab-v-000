@@ -4,3 +4,7 @@ function distanceFromHqInBlocks(location) {
   const locationBeforeOrAfter42 = [location, hq].sort()
   return locationBeforeOrAfter42[1] - locationBeforeOrAfter42[0]
 }
+
+function distanceFromHqInFeet() {
+  
+}
