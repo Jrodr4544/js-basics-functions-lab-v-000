@@ -14,3 +14,7 @@ function distanceTravelledInFeet(start, end) {
   const numOfBlocksTravelled = [start, end].sort()[1] - [start, end].sort()[0]
   return numOfBlocksTravelled * 264
 }
+
+function calculatesFarePrice(start, destination) {
+  
+}
