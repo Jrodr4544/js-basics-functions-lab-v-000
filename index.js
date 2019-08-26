@@ -10,6 +10,6 @@ function distanceFromHqInFeet(location) {
   return distanceFromHqInBlocks(location) * distancePerBlock
 }
 
-function distanceTravelledInFeet(location) {
+function distanceTravelledInFeet(start, end) {
   
 }
